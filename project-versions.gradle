@@ -1,0 +1,81 @@
+/**
+ * Libraries Versions
+ *
+ * This file is injected directly in build.gradle (Project).
+ * We don't need to inject it in modules build.gradle.
+ *
+ * This is how we inject the file :
+ * `apply from: "${rootProject.rootDir}/project-versions.gradle"`
+ */
+ext{
+
+    /**
+     * Used in a plugin and a library
+     */
+    def androidxNavigation = '2.5.0'
+
+    /**
+     * Gradle plugins versions
+     */
+    pluginsVersions = [
+            'kotlin'                   : '1.6.21',
+            'androidGradle'            : '7.1.3',
+            'androidxNavigation'       : '2.5.0-alpha01',
+            'maps_plugin'              : '2.0.1'
+    ]
+
+    /**
+     * Build versions
+     */
+    buildVersions = [
+            'compileSdk'       : 32,
+            'buildToolsVersion': '30.0.3',
+            'minSdk'           : 26,
+            'targetSdk'        : 32,
+    ]
+
+    /**
+     * Libraries versions
+     */
+    librariesVersion = [
+            'core' : '1.7.0',
+            'appcompat' : '1.4.2',
+            'material' : '1.6.1',
+            'contraint_layout' : '1.7.0',
+            'hilt' : '2.38.1',
+            'retrofit' : '2.9.0',
+            'okhttp' : '5.0.0-alpha.6',
+            'lifecycle'  : '2.5.0-rc01',
+            'nav_version'  : androidxNavigation,
+            'pane' : '1.2.0',
+            'junit_version' : '4.13.2',
+            'test_version' : "1.4.0",
+            'test_ext_version' : "1.1.3",
+            'arch_testing_version' : "2.1.0",
+            'kotlin_coroutine_version' : '1.1.0',
+            'maps_android'    : '18.1.0',
+            'location' : '18.0.0',
+            'rx2java_version' : '2.1.1',
+            'rx2android_version' : '2.1.1',
+            'cluster' : '3.2.1',
+            'rx_perm' : '0.12',
+            'rx' : '3.0.0',
+            'canary' : '2.9.1',
+            'mockk' : '1.12.0',
+            'truth' : '1.1.3'
+    ]
+
+    /**
+     * Testing libraries versions
+     */
+    testingVersions = [
+            'junit'               : '4.13.2',
+            'androidxTestExtJunit': "1.1.3",
+            'androidxTestCore'    : "1.3.0",
+            'androidxTestRunner'  : "1.4.0",
+            'androidxTestRules'   : "1.4.0",
+            'androidxTestArch'    : "2.1.0",
+            'androidxTestEspresso': '3.4.0'
+    ]
+
+}

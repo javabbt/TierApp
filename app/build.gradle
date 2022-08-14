@@ -1,0 +1,142 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+}
+
+android {
+    compileSdk buildVersions.compileSdk
+    buildToolsVersion buildVersions.buildToolsVersion
+
+    defaultConfig {
+        minSdk buildVersions.minSdk
+        targetSdk buildVersions.targetSdk
+
+        versionCode Integer.parseInt(buildNumber)
+        versionName "1.0 ($versionCode)"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    flavorDimensions "environment"
+
+    productFlavors {
+        development {
+            dimension 'environment'
+            resValue("string", "app_name", "TierApp (Development)")
+            missingDimensionStrategy 'tier', 'development'
+            def appProperties = loadProperties("${project.rootDir}/app.properties")
+            buildConfigField "String", "BASE_URL", "\"${appProperties["com.example.tierapp.baseUrl"]}\""
+            buildConfigField "String", "API_TOKEN", "\"${appProperties["api.token"]}\""
+            dimension 'environment'
+        }
+
+        staging {
+            dimension 'environment'
+            resValue("string", "app_name", "TierApp (QA)")
+            missingDimensionStrategy 'tier', 'staging'
+        }
+
+        production {
+            dimension 'environment'
+            resValue("string", "app_name", "TierApp")
+            missingDimensionStrategy 'tier', 'production'
+        }
+    }
+
+    sourceSets {
+        def sharedTestDir = 'src/sharedTest/java/com/example/tierapp'
+        def sharedResDir = 'src/sharedTest/res'
+        test {
+            java.srcDirs += sharedTestDir
+            resources.srcDirs += sharedResDir
+        }
+        androidTest {
+            java.srcDirs += sharedTestDir
+            resources.srcDirs += sharedResDir
+        }
+    }
+
+}
+
+
+
+dependencies {
+    implementation "androidx.core:core-ktx:${librariesVersion.core}"
+    implementation "androidx.appcompat:appcompat:${librariesVersion.appcompat}"
+    implementation "com.google.android.material:material:${librariesVersion.material}"
+    implementation "androidx.constraintlayout:constraintlayout:${librariesVersion.contraint_layout}"
+    implementation "com.google.dagger:hilt-android:${librariesVersion.hilt}"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0'
+    testImplementation 'junit:junit:4.12'
+    kapt "com.google.dagger:hilt-compiler:${librariesVersion.hilt}"
+    implementation "com.squareup.retrofit2:retrofit:${librariesVersion.retrofit}"
+    implementation "com.squareup.retrofit2:converter-gson:${librariesVersion.retrofit}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${librariesVersion.okhttp}"
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${librariesVersion.lifecycle}"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:${librariesVersion.lifecycle}"
+
+    implementation "androidx.navigation:navigation-fragment-ktx:${librariesVersion.nav_version}"
+    implementation "androidx.navigation:navigation-ui-ktx:${librariesVersion.nav_version}"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:${librariesVersion.kotlin_coroutine_version}"
+
+    implementation "com.google.android.gms:play-services-maps:${librariesVersion.maps_android}"
+    implementation "com.google.android.gms:play-services-location:${librariesVersion.location}"
+
+    implementation "com.github.tbruyelle:rxpermissions:${librariesVersion.rx_perm}"
+
+    implementation "io.reactivex.rxjava3:rxandroid:${librariesVersion.rx}"
+    // Because RxAndroid releases are few and far between, it is recommended you also
+    // explicitly depend on RxJava's latest version for bug fixes and new features.
+    // (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
+    implementation "io.reactivex.rxjava3:rxjava:${librariesVersion.rx}"
+
+    // KTX for the Maps SDK for Android
+    implementation "com.google.maps.android:maps-ktx:${librariesVersion.cluster}"
+    // (Optional) KTX for the Maps SDK for Android Utility Library
+    implementation "com.google.maps.android:maps-utils-ktx:${librariesVersion.cluster}"
+
+    //Testing
+    testImplementation "junit:junit:${librariesVersion.junit_version}"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:${librariesVersion.kotlin_coroutine_version}"
+    testImplementation "androidx.test:core:${librariesVersion.test_version}"
+    testImplementation "androidx.test:runner:${librariesVersion.test_version}"
+    testImplementation "androidx.test:rules:${librariesVersion.test_version}"
+    testImplementation "androidx.test.ext:junit:${librariesVersion.test_ext_version}"
+    testImplementation "androidx.arch.core:core-testing:${librariesVersion.arch_testing_version}"
+    testImplementation "com.squareup.okhttp3:mockwebserver:${librariesVersion.okhttp}"
+
+    // for memory leaks
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:${librariesVersion.canary}"
+
+    //mockk
+    testImplementation "io.mockk:mockk:${librariesVersion.mockk}"
+    testImplementation "com.google.truth:truth:${librariesVersion.truth}"
+
+}

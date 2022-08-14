@@ -1,0 +1,245 @@
+# Gitlab-CI – TIER APP Templates
+#
+# This YAML document contains templates used by ".gitlab-ci.yml"
+#
+# Template : Lint
+#
+# `jUnitLint` task was created by @Yannick
+#
+# Input variable :
+#  - MODULE  : Module name to test
+#
+# Output :
+#   - Junit lint report located into the directory `./lint-results`
+#
+.lint:
+  # image: circleci/android:api-30
+  image: cimg/android:2022.01.1
+  tags:
+    - docker
+    - large
+  script:
+    - ./gradlew --daemon --gradle-user-home="./.tierapp-gradle-home" --build-cache lint
+    - ./gradlew --daemon --gradle-user-home="./.tierapp-gradle-home" --build-cache convertLintResultToJUnit
+  after_script:
+    - ./gradlew --gradle-user-home="./.tierapp-gradle-home" --stop
+    - LINT_RESULT_DIRECTORY="./lint-results"
+    - mkdir "${LINT_RESULT_DIRECTORY}"
+    - cp ./junit-reports/*-junit-*.xml "${LINT_RESULT_DIRECTORY}/"
+  cache:
+    paths:
+      - "./.tierapp-gradle-home"
+      - "./.gradle"
+      - "./build/tierapp-build-cache"
+  artifacts:
+    name: "lint-results"
+    expire_in: 1h
+    paths:
+      - "./lint-results/*.xml"
+    reports:
+      junit: "./lint-results/*.xml"
+
+# Template : Unit Test
+#
+# Make all Unit Test in the project
+#
+# Output :
+#   - Junit test report located into the directory `./test-results`
+#
+.unit_test:
+  # image: circleci/android:api-30
+  image: cimg/android:2022.01.1
+  tags:
+    - docker
+    - large
+  script:
+    - GRADLE_FLAVOR="$(tr '[:lower:]' '[:upper:]' <<< ${FLAVOR:0:1})${FLAVOR:1}"
+    - GRADLE_BUILD_TYPE="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+    - ./gradlew -PbuildNumber="${CI_PIPELINE_IID}" --no-daemon --gradle-user-home="./.tierapp-gradle-home" --build-cache test"${GRADLE_FLAVOR}${GRADLE_BUILD_TYPE}"
+  after_script:
+    - GRADLE_FLAVOR="$(tr '[:lower:]' '[:upper:]' <<< ${FLAVOR:0:1})${FLAVOR:1}"
+    - GRADLE_BUILD_TYPE="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+    - TEST_RESULT_DIRECTORY="./test-results"
+    - mkdir "${TEST_RESULT_DIRECTORY}"
+    - cp ./**/build/test-results/test${GRADLE_FLAVOR}${GRADLE_BUILD_TYPE}UnitTest/TEST-*xml "${TEST_RESULT_DIRECTORY}/"
+  cache:
+    paths:
+      - "./.tierapp-gradle-home"
+      - "./.gradle"
+      - "./build/tierapp-build-cache"
+  artifacts:
+    name: "unit-test-${FLAVOR}-${BUILD_TYPE}-results"
+    expire_in: 1 hours
+    paths:
+      - "./test-results/*.xml"
+    reports:
+      junit: "./test-results/*.xml"
+
+
+# Template : Assemble an APK
+#
+# Assemble an APK with Gradle
+#
+# Input variables :
+#  - MODULE  : Main module of the application
+#  - FLAVOR  : The flavor to test
+#  - BUILD_TYPE : The build variant to test
+#
+# Output :
+#  - APK generated at `./${MODULE}-${FLAVOR}-${VARIANT}.apk`
+#
+.build_apk:
+  # image: circleci/android:api-30
+  image: cimg/android:2022.01.1
+  tags:
+    - docker
+    - large
+  script: >
+    GRADLE_FLAVOR="$(tr '[:lower:]' '[:upper:]' <<< ${FLAVOR:0:1})${FLAVOR:1}"
+    GRADLE_BUILD_TYPE="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+    ./gradlew -PbuildNumber="${CI_PIPELINE_IID}" --no-daemon --gradle-user-home="./.tierapp-gradle-home" --build-cache assemble"${GRADLE_FLAVOR}${GRADLE_BUILD_TYPE}"
+  after_script:
+    - cp "${MODULE}"/build/outputs/apk/"${FLAVOR}"/"${BUILD_TYPE}"/"${MODULE}"-"${FLAVOR}"-"${BUILD_TYPE}".apk ./"${MODULE}"-"${FLAVOR}"-"${BUILD_TYPE}".apk
+  cache:
+    paths:
+      - "./.tierapp-gradle-home"
+      - "./.gradle"
+      - "./build/tierapp-build-cache"
+  artifacts:
+    name: "${MODULE}-${FLAVOR}-${BUILD_TYPE}.apk"
+    when: on_success
+    expire_in: 1h
+    paths:
+      - "./${MODULE}-${FLAVOR}-${BUILD_TYPE}.apk"
+
+# Template : Assemble an AAB
+#
+# Assemble an AAB with Gradle
+#
+# Input variables :
+#  - FLAVOR  : The flavor to test
+#  - BUILD_TYPE : The build variant to test
+#
+# Output :
+#  - AAB generated at `./${MODULE}-${FLAVOR}-${VARIANT}.aab`
+#
+.build_aab:
+  # image: circleci/android:api-30
+  image: cimg/android:2022.01.1
+  tags:
+    - docker
+    - large
+  script: >
+    GRADLE_FLAVOR="$(tr '[:lower:]' '[:upper:]' <<< ${FLAVOR:0:1})${FLAVOR:1}"
+    GRADLE_BUILD_TYPE="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+    ./gradlew -PbuildNumber="${CI_PIPELINE_IID}" --no-daemon --gradle-user-home="./.tierapp-gradle-home" --build-cache bundle"${GRADLE_FLAVOR}${GRADLE_BUILD_TYPE}"
+  after_script:
+    - GRADLE_BUILD_TYPE="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+    - cp "${MODULE}"/build/outputs/bundle/"${FLAVOR}${GRADLE_BUILD_TYPE}"/"${MODULE}"-"${FLAVOR}"-"${BUILD_TYPE}".aab ./"${MODULE}"-"${FLAVOR}"-"${BUILD_TYPE}".aab
+  cache:
+    paths:
+      - "./.tierapp-gradle-home"
+      - "./.gradle"
+      - "./build/tierapp-build-cache"
+  artifacts:
+    name: "${MODULE}-${FLAVOR}-${BUILD_TYPE}.aab"
+    when: on_success
+    expire_in: 1h
+    paths:
+      - "./${MODULE}-${FLAVOR}-${BUILD_TYPE}.aab"
+
+# Template : Launch instrumented on Firebase TestLab
+#
+# Execute instrumented tests on Firebase Test Lab.
+# The device is the default one, with "fr_FR" locale.
+#
+# Input variables :
+#  - MODULE : The module to test
+#  - FLAVOR  : The flavor to test
+#  - BUILD_TYPE : The build variant to test
+#  - TEST_TARGET_PACKAGE: [optional] set the package to test
+#
+# Runner variables :
+# - TEST_LAB_SERVICE_ACCOUNT : service account for the project
+# - TEST_LAB_RESULTS_BUCKET : path of the bucket (prefixed by `gs://`)
+# - TEST_GOOGLE_PROJECT_ID : project id
+#
+# Output : directory containing the Junit test results located at `./firebase-testLab-results/`
+#
+.firebase_test_lab:
+  # image: circleci/android:api-30
+  image: cimg/android:2022.01.1
+  tags:
+    - docker
+    - large
+  before_script:
+    - gcloud auth activate-service-account --key-file "${TEST_LAB_SERVICE_ACCOUNT}"
+    - gcloud --quiet config set project "${TEST_GOOGLE_PROJECT_ID}"
+  script:
+    - GRADLE_FLAVOR="$(tr '[:lower:]' '[:upper:]' <<< ${FLAVOR:0:1})${FLAVOR:1}"
+    - GRADLE_BUILD_TYPE="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+    - MODULE_PATH="$(tr ':' '/' <<< ${MODULE})"
+    - MODULE_LEAF="${MODULE//*:}"
+    - ./gradlew -PbuildNumber="${CI_PIPELINE_IID}" --no-daemon --gradle-user-home="./.tierapp-gradle-home" --build-cache "${MODULE}":assemble"${GRADLE_FLAVOR}""${GRADLE_BUILD_TYPE}" "${MODULE}":assemble"${GRADLE_FLAVOR}""${GRADLE_BUILD_TYPE}"AndroidTest
+    - ANDROID_APK="./"${MODULE_PATH}"/build/outputs/apk/${FLAVOR}/${BUILD_TYPE}/"${MODULE_LEAF}"-${FLAVOR}-${BUILD_TYPE}.apk"
+    - ANDROID_TEST_APK="./"${MODULE_PATH}"/build/outputs/apk/androidTest/${FLAVOR}/${BUILD_TYPE}/"${MODULE_LEAF}"-${FLAVOR}-${BUILD_TYPE}-androidTest.apk"
+    - if [ -z "${TEST_TARGET_PACKAGE}" ]; then TEST_TARGET_PACKAGE="com.example.tierapp"; fi
+    - >
+      gcloud firebase test android run \
+        --results-bucket="${TEST_LAB_RESULTS_BUCKET}" \
+        --results-dir="${CI_JOB_ID}" \
+        --app="${ANDROID_APK}" \
+        --test="${ANDROID_TEST_APK}" \
+        --test-targets="package ${TEST_TARGET_PACKAGE}" \
+        --locales="fr_FR"
+  after_script:
+    - mkdir "./firebase-test-lab-results"
+    - gsutil -m cp -r -U "${TEST_LAB_RESULTS_BUCKET}/${CI_JOB_ID}/*" "./firebase-test-lab-results/"
+    - gsutil -m rm -r -f "${TEST_LAB_RESULTS_BUCKET}/${CI_JOB_ID}/*"
+  cache:
+    paths:
+      - "./.tierapp-gradle-home"
+      - "./.gradle"
+      - "./build/tierapp-build-cache"
+  artifacts:
+    name: "firebase-test-lab-results"
+    when: always
+    expire_in: 2h
+    paths:
+      - "./firebase-test-lab-results/"
+    reports:
+      junit: "./firebase-test-lab-results/*/test_result_*.xml"
+
+# Template : Deploy Artifact (APK or AAB) on Firebase App Distribution
+#
+# /!\ This template works with APK and AAB /!\
+#
+# - Download latest version of Firebase CLI
+# - Upload the APK on Firebase App Distribution
+#
+# Runner variables :
+# - FIREBASE_APP_ID : Application ID on Firebase
+# - FIREBASE_CI_TOKEN : Firebase authentication token
+# - RELEASE_NOTE : [optional] Release note to upload with artefact
+#
+# Input variables :
+# - ARTIFACT : path of artifact generated by a step [.assemble_template]
+# - TESTER_GROUPS : List of all groups of testers
+#
+.firebase_app_distribution:
+  image: debian:buster-slim
+  tags:
+    - docker
+    - light
+  before_script:
+    - apt-get update && apt-get -y install curl
+    - curl -Lo ./firebase_bin https://firebase.tools/bin/linux/latest
+    - chmod +x ./firebase_bin
+  script:
+    - if [ -z "${RELEASE_NOTE}" ]; then RELEASE_NOTE=""; fi
+    - >
+      ./firebase_bin appdistribution:distribute "${ARTIFACT}" \
+          --app "${FIREBASE_APP_ID}" \
+          --token "${FIREBASE_CI_TOKEN}" \
+          --groups "${TESTER_GROUPS}" \
+          --release-notes "${RELEASE_NOTE}"

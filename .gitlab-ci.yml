@@ -1,0 +1,122 @@
+# Gitlab-CI – TierApp Android Project
+#
+#
+# This YAML document contains the entire CI/CD for TierApp Android Project
+#
+include:
+  - local: ".gitlab/ci/.gitlab-ci-template.yml"
+
+# On each event on `init` branch (Only for testing purposes)
+.rules_on_event_on_init_template: &rules_on_event_on_init
+  if: '$CI_COMMIT_BRANCH =~ /^init/ && $CI_MERGE_REQUEST_IID == null'
+  when: always
+
+# On each event on `feature` branch
+.rules_on_event_on_feature_template: &rules_on_event_on_feature
+  if: '$CI_COMMIT_BRANCH =~ /^feature/ && $CI_MERGE_REQUEST_IID == null'
+  when: always
+
+# On each event on `release` branch
+.rules_on_event_on_release_template: &rules_on_event_on_release
+  if: '$CI_COMMIT_BRANCH =~ /^release/ && $CI_MERGE_REQUEST_IID == null'
+  when: always
+
+# On each event on `fix` branch
+.rules_on_event_on_fix_template: &rules_on_event_on_fix
+  if: '$CI_COMMIT_BRANCH =~ /^fix/ && $CI_MERGE_REQUEST_IID == null'
+  when: always
+
+# On each event on `develop` branch
+.rules_on_event_on_develop_template: &rules_on_event_on_develop
+  if: '$CI_COMMIT_BRANCH == "develop" && $CI_MERGE_REQUEST_IID == null'
+  when: always
+
+# Extract keystore and associated properties
+# Be sure to follow these name conventions while creation key files and don't forget to add them to the .gitignore
+.load-properties: &load-properties
+  - base64 --decode "${KEYSTORE_FILE_B64}" >>"./keystore.p12"
+  - base64 --decode "${KEYSTORE_PROPERTIES_B64}" >>"./keystore.properties"
+  - base64 --decode "${KEYSTORE_DEBUG_FILE_B64}" >>"./keystoreDebug.p12"
+  - base64 --decode "${KEYSTORE_DEBUG_PROPERTIES_B64}" >>"./keystoreDebug.properties"
+
+# Variables definition
+variables: &global_variables
+  NAME: "TierApp"
+  MODULE: "app"
+
+# Stages definition
+stages:
+  - test
+  - build_artifacts
+  - deployment
+
+# Lint
+lint:
+  stage: test
+  extends: .lint
+  variables:
+    <<: *global_variables
+  before_script:
+    - *load-properties
+  rules:
+    - *rules_on_event_on_init
+    - *rules_on_event_on_feature
+    - *rules_on_event_on_release
+    - *rules_on_event_on_fix
+    - *rules_on_event_on_develop
+  needs: [ ]
+
+# Unit Test
+unit-test:
+  stage: test
+  extends: .unit_test
+  variables:
+    <<: *global_variables
+    FLAVOR: "development"
+    BUILD_TYPE: "debug"
+  before_script:
+    - *load-properties
+  rules:
+    - *rules_on_event_on_init
+    - *rules_on_event_on_feature
+    - *rules_on_event_on_release
+    - *rules_on_event_on_fix
+    - *rules_on_event_on_develop
+  needs: [ ]
+
+# Build development APK
+build-apk:
+  stage: build_artifacts
+  extends: .build_apk
+  variables:
+    <<: *global_variables
+    FLAVOR: "development"
+    BUILD_TYPE: "release"
+  before_script:
+    - *load-properties
+  rules:
+    - *rules_on_event_on_init
+    - *rules_on_event_on_release
+    - *rules_on_event_on_develop
+  needs:
+    - job: lint
+    - job: unit-test
+    - job: instrumented-test
+
+# Build staging APK
+build-staging-apk:
+  stage: build_artifacts
+  extends: .build_apk
+  variables:
+    <<: *global_variables
+    FLAVOR: "staging"
+    BUILD_TYPE: "release"
+  before_script:
+    - *load-properties
+  rules:
+    - *rules_on_event_on_init
+    - *rules_on_event_on_release
+  needs:
+    - job: lint
+    - job: unit-test
+    - job: instrumented-test

@@ -1,0 +1,3340 @@
+{
+  "data": [
+    {
+      "type": "vehicle",
+      "id": "064396c0",
+      "attributes": {
+        "batteryLevel": 27,
+        "lat": 52.475785,
+        "lng": 13.326359,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "883a94de",
+      "attributes": {
+        "batteryLevel": 47,
+        "lat": 52.517169,
+        "lng": 13.394245,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "298382ca",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.527134,
+        "lng": 13.370874,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "53e1a5f8",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.522893,
+        "lng": 13.378845,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d5d04640",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.518189,
+        "lng": 13.497232,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c273001a",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.536317,
+        "lng": 13.473637,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "662b3cff",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.515934,
+        "lng": 13.373895,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "058499c2",
+      "attributes": {
+        "batteryLevel": 53,
+        "lat": 52.515576,
+        "lng": 13.333698,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "3572c8e8",
+      "attributes": {
+        "batteryLevel": 39,
+        "lat": 52.509519,
+        "lng": 13.381225,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "da3b1e64",
+      "attributes": {
+        "batteryLevel": 86,
+        "lat": 52.509676,
+        "lng": 13.39207,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "7ba4ee38",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.515093,
+        "lng": 13.351325,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ade7e0ec",
+      "attributes": {
+        "batteryLevel": 60,
+        "lat": 52.523796,
+        "lng": 13.410436,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0aa47faa",
+      "attributes": {
+        "batteryLevel": 79,
+        "lat": 52.527112,
+        "lng": 13.425117,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a6f4d7dd",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.481819,
+        "lng": 13.375826,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "baa099d8",
+      "attributes": {
+        "batteryLevel": 63,
+        "lat": 52.485732,
+        "lng": 13.355253,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c7ea7a74",
+      "attributes": {
+        "batteryLevel": 93,
+        "lat": 52.503037,
+        "lng": 13.365503,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8556139a",
+      "attributes": {
+        "batteryLevel": 65,
+        "lat": 52.544221,
+        "lng": 13.371697,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a2c02d92",
+      "attributes": {
+        "batteryLevel": 50,
+        "lat": 52.537557,
+        "lng": 13.366406,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "84810d73",
+      "attributes": {
+        "batteryLevel": 62,
+        "lat": 52.511028,
+        "lng": 13.378788,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8986a6d9",
+      "attributes": {
+        "batteryLevel": 63,
+        "lat": 52.510255,
+        "lng": 13.368518,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ab8c2970",
+      "attributes": {
+        "batteryLevel": 99,
+        "lat": 52.498235,
+        "lng": 13.360736,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4f36f687",
+      "attributes": {
+        "batteryLevel": 33,
+        "lat": 52.475558,
+        "lng": 13.420991,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "7f37fe2d",
+      "attributes": {
+        "batteryLevel": 26,
+        "lat": 52.479038,
+        "lng": 13.374468,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "461c1358",
+      "attributes": {
+        "batteryLevel": 77,
+        "lat": 52.498856,
+        "lng": 13.447655,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "24be3925",
+      "attributes": {
+        "batteryLevel": 42,
+        "lat": 52.511963,
+        "lng": 13.375639,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "998ec6d9",
+      "attributes": {
+        "batteryLevel": 58,
+        "lat": 52.51692,
+        "lng": 13.377304,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d73fbdfe",
+      "attributes": {
+        "batteryLevel": 99,
+        "lat": 52.493419,
+        "lng": 13.351909,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "9e852d4f",
+      "attributes": {
+        "batteryLevel": 26,
+        "lat": 52.467647,
+        "lng": 13.422253,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e7681799",
+      "attributes": {
+        "batteryLevel": 61,
+        "lat": 52.515366,
+        "lng": 13.386936,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "37f08b91",
+      "attributes": {
+        "batteryLevel": 29,
+        "lat": 52.51695,
+        "lng": 13.377448,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a7a38a4a",
+      "attributes": {
+        "batteryLevel": 97,
+        "lat": 52.512629,
+        "lng": 13.393559,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b33b5724",
+      "attributes": {
+        "batteryLevel": 45,
+        "lat": 52.509392,
+        "lng": 13.43228,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "313a7ff5",
+      "attributes": {
+        "batteryLevel": 52,
+        "lat": 52.486461,
+        "lng": 13.42413,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "07d51edc",
+      "attributes": {
+        "batteryLevel": 60,
+        "lat": 52.500488,
+        "lng": 13.417517,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1ec9d0ba",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.559902,
+        "lng": 13.467904,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d7f62d45",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.531882,
+        "lng": 13.399785,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2bae04a2",
+      "attributes": {
+        "batteryLevel": 62,
+        "lat": 52.508493,
+        "lng": 13.334621,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1104b36f",
+      "attributes": {
+        "batteryLevel": 47,
+        "lat": 52.55554,
+        "lng": 13.407566,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b9e89a04",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.495223,
+        "lng": 13.444441,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2d22cb04",
+      "attributes": {
+        "batteryLevel": 77,
+        "lat": 52.481247,
+        "lng": 13.383214,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "117f4754",
+      "attributes": {
+        "batteryLevel": 79,
+        "lat": 52.484817,
+        "lng": 13.383957,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "36b84429",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.477786,
+        "lng": 13.478257,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "bd6e0dea",
+      "attributes": {
+        "batteryLevel": 66,
+        "lat": 52.510759,
+        "lng": 13.492301,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "be680335",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.51276,
+        "lng": 13.377391,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6f2a90c0",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.475552,
+        "lng": 13.452836,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "bc799e13",
+      "attributes": {
+        "batteryLevel": 78,
+        "lat": 52.507379,
+        "lng": 13.301886,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "94a4b440",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.48761,
+        "lng": 13.368045,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "674ea770",
+      "attributes": {
+        "batteryLevel": 62,
+        "lat": 52.497792,
+        "lng": 13.322777,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5cb5841c",
+      "attributes": {
+        "batteryLevel": 62,
+        "lat": 52.508441,
+        "lng": 13.355979,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "65604d62",
+      "attributes": {
+        "batteryLevel": 82,
+        "lat": 52.504259,
+        "lng": 13.359648,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "786b60f6",
+      "attributes": {
+        "batteryLevel": 78,
+        "lat": 52.523831,
+        "lng": 13.330004,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8349ee1c",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.52644,
+        "lng": 13.338291,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "287b55a9",
+      "attributes": {
+        "batteryLevel": 77,
+        "lat": 52.520898,
+        "lng": 13.377153,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f8f4116d",
+      "attributes": {
+        "batteryLevel": 99,
+        "lat": 52.515687,
+        "lng": 13.365961,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "bc4b489e",
+      "attributes": {
+        "batteryLevel": 99,
+        "lat": 52.516199,
+        "lng": 13.402444,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "94309bee",
+      "attributes": {
+        "batteryLevel": 63,
+        "lat": 52.523255,
+        "lng": 13.324884,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "40864339",
+      "attributes": {
+        "batteryLevel": 71,
+        "lat": 52.490032,
+        "lng": 13.481047,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f75f1bdd",
+      "attributes": {
+        "batteryLevel": 50,
+        "lat": 52.514716,
+        "lng": 13.336408,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d5049b10",
+      "attributes": {
+        "batteryLevel": 80,
+        "lat": 52.514365,
+        "lng": 13.317014,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6cf53fd2",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.51226,
+        "lng": 13.41929,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4b0f0faa",
+      "attributes": {
+        "batteryLevel": 65,
+        "lat": 52.520949,
+        "lng": 13.41491,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4f43900e",
+      "attributes": {
+        "batteryLevel": 98,
+        "lat": 52.504986,
+        "lng": 13.351987,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "303a8b28",
+      "attributes": {
+        "batteryLevel": 42,
+        "lat": 52.513395,
+        "lng": 13.377351,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "57b4e735",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.516273,
+        "lng": 13.376232,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5ca77b0b",
+      "attributes": {
+        "batteryLevel": 61,
+        "lat": 52.516488,
+        "lng": 13.38114,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a0cc108f",
+      "attributes": {
+        "batteryLevel": 57,
+        "lat": 52.508639,
+        "lng": 13.332906,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b3b4f103",
+      "attributes": {
+        "batteryLevel": 43,
+        "lat": 52.493996,
+        "lng": 13.309731,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c435af9d",
+      "attributes": {
+        "batteryLevel": 38,
+        "lat": 52.455156,
+        "lng": 13.399399,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1036ecd0",
+      "attributes": {
+        "batteryLevel": 91,
+        "lat": 52.502791,
+        "lng": 13.31822,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "67557b65",
+      "attributes": {
+        "batteryLevel": 48,
+        "lat": 52.514996,
+        "lng": 13.431802,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1b8581b4",
+      "attributes": {
+        "batteryLevel": 59,
+        "lat": 52.477616,
+        "lng": 13.328728,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "77b4ccac",
+      "attributes": {
+        "batteryLevel": 54,
+        "lat": 52.50441,
+        "lng": 13.315869,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "9dcf07ac",
+      "attributes": {
+        "batteryLevel": 98,
+        "lat": 52.459023,
+        "lng": 13.400246,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8307ec25",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.509953,
+        "lng": 13.30611,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4c38bf55",
+      "attributes": {
+        "batteryLevel": 48,
+        "lat": 52.497841,
+        "lng": 13.324423,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "7a4ac9ef",
+      "attributes": {
+        "batteryLevel": 80,
+        "lat": 52.502964,
+        "lng": 13.340109,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b3ce15ac",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.506086,
+        "lng": 13.323433,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e4c5b16e",
+      "attributes": {
+        "batteryLevel": 42,
+        "lat": 52.490571,
+        "lng": 13.315197,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1b637714",
+      "attributes": {
+        "batteryLevel": 86,
+        "lat": 52.487595,
+        "lng": 13.322396,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e8810404",
+      "attributes": {
+        "batteryLevel": 48,
+        "lat": 52.497284,
+        "lng": 13.312915,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5f75a84d",
+      "attributes": {
+        "batteryLevel": 48,
+        "lat": 52.472114,
+        "lng": 13.385444,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "7e314429",
+      "attributes": {
+        "batteryLevel": 69,
+        "lat": 52.512353,
+        "lng": 13.326359,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "08683dec",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.508153,
+        "lng": 13.332369,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "29d3ef17",
+      "attributes": {
+        "batteryLevel": 56,
+        "lat": 52.551258,
+        "lng": 13.438493,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "14fa433c",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.471705,
+        "lng": 13.334377,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4f20a987",
+      "attributes": {
+        "batteryLevel": 42,
+        "lat": 52.472721,
+        "lng": 13.421668,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ba9c0b96",
+      "attributes": {
+        "batteryLevel": 81,
+        "lat": 52.469628,
+        "lng": 13.424331,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4491083d",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.526679,
+        "lng": 13.369566,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ecca48b5",
+      "attributes": {
+        "batteryLevel": 32,
+        "lat": 52.499567,
+        "lng": 13.33107,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "61e354f0",
+      "attributes": {
+        "batteryLevel": 89,
+        "lat": 52.50035,
+        "lng": 13.310343,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2d1ac960",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.485783,
+        "lng": 13.355139,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fd9510c4",
+      "attributes": {
+        "batteryLevel": 48,
+        "lat": 52.500296,
+        "lng": 13.334993,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "330db496",
+      "attributes": {
+        "batteryLevel": 30,
+        "lat": 52.467524,
+        "lng": 13.377682,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "47f6972d",
+      "attributes": {
+        "batteryLevel": 72,
+        "lat": 52.531884,
+        "lng": 13.412446,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "3c34443a",
+      "attributes": {
+        "batteryLevel": 65,
+        "lat": 52.546655,
+        "lng": 13.432076,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "802049cf",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.532636,
+        "lng": 13.412201,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "82390455",
+      "attributes": {
+        "batteryLevel": 72,
+        "lat": 52.500287,
+        "lng": 13.343877,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "79255081",
+      "attributes": {
+        "batteryLevel": 76,
+        "lat": 52.505062,
+        "lng": 13.337089,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6062d5ec",
+      "attributes": {
+        "batteryLevel": 40,
+        "lat": 52.526953,
+        "lng": 13.396291,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "cdd578b9",
+      "attributes": {
+        "batteryLevel": 44,
+        "lat": 52.55749,
+        "lng": 13.39379,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "475b3b0f",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.547179,
+        "lng": 13.353684,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "90b81e82",
+      "attributes": {
+        "batteryLevel": 51,
+        "lat": 52.493539,
+        "lng": 13.33451,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "66c7c09e",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.526135,
+        "lng": 13.3454,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b8049733",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.513906,
+        "lng": 13.422375,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f6ef1ee5",
+      "attributes": {
+        "batteryLevel": 28,
+        "lat": 52.522812,
+        "lng": 13.31465,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1798baeb",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.533255,
+        "lng": 13.422488,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e555c1a6",
+      "attributes": {
+        "batteryLevel": 32,
+        "lat": 52.512184,
+        "lng": 13.45492,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "52e86d2c",
+      "attributes": {
+        "batteryLevel": 84,
+        "lat": 52.50848,
+        "lng": 13.373077,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "9bdd5829",
+      "attributes": {
+        "batteryLevel": 97,
+        "lat": 52.564373,
+        "lng": 13.426363,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "bfd191b2",
+      "attributes": {
+        "batteryLevel": 32,
+        "lat": 52.46441,
+        "lng": 13.41303,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "24cd0a56",
+      "attributes": {
+        "batteryLevel": 79,
+        "lat": 52.503286,
+        "lng": 13.43195,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "17b513f4",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.502863,
+        "lng": 13.415876,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e9fc66da",
+      "attributes": {
+        "batteryLevel": 93,
+        "lat": 52.528332,
+        "lng": 13.456056,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0f56be6d",
+      "attributes": {
+        "batteryLevel": 67,
+        "lat": 52.503216,
+        "lng": 13.337114,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e6dc2cda",
+      "attributes": {
+        "batteryLevel": 91,
+        "lat": 52.52953,
+        "lng": 13.335792,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2f069acb",
+      "attributes": {
+        "batteryLevel": 46,
+        "lat": 52.517433,
+        "lng": 13.380521,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e2368b9e",
+      "attributes": {
+        "batteryLevel": 41,
+        "lat": 52.511751,
+        "lng": 13.376999,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d4573cf5",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.561947,
+        "lng": 13.39939,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "800ca509",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.508823,
+        "lng": 13.363904,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5c96ea92",
+      "attributes": {
+        "batteryLevel": 40,
+        "lat": 52.51791,
+        "lng": 13.341649,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a7854e60",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.492134,
+        "lng": 13.336021,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "53f75350",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.465094,
+        "lng": 13.348878,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "73a97590",
+      "attributes": {
+        "batteryLevel": 95,
+        "lat": 52.53731,
+        "lng": 13.421539,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b76ca704",
+      "attributes": {
+        "batteryLevel": 86,
+        "lat": 52.52253,
+        "lng": 13.379454,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "29118e74",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.520977,
+        "lng": 13.373464,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "3c1a09e3",
+      "attributes": {
+        "batteryLevel": 81,
+        "lat": 52.524475,
+        "lng": 13.314828,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d54b78df",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.463122,
+        "lng": 13.376211,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b9fbaf89",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.480382,
+        "lng": 13.356597,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8c0fa199",
+      "attributes": {
+        "batteryLevel": 78,
+        "lat": 52.494252,
+        "lng": 13.347934,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8ae26eff",
+      "attributes": {
+        "batteryLevel": 85,
+        "lat": 52.508731,
+        "lng": 13.42493,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "51f8250e",
+      "attributes": {
+        "batteryLevel": 30,
+        "lat": 52.472882,
+        "lng": 13.44789,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d598cdad",
+      "attributes": {
+        "batteryLevel": 54,
+        "lat": 52.512948,
+        "lng": 13.388674,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6b6a22a5",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.534498,
+        "lng": 13.364433,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b14910de",
+      "attributes": {
+        "batteryLevel": 41,
+        "lat": 52.5244,
+        "lng": 13.427536,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "3929bb67",
+      "attributes": {
+        "batteryLevel": 82,
+        "lat": 52.520363,
+        "lng": 13.327319,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "bebff1d0",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.478537,
+        "lng": 13.371329,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c0343c82",
+      "attributes": {
+        "batteryLevel": 55,
+        "lat": 52.524751,
+        "lng": 13.409083,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ff19b9f9",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.499768,
+        "lng": 13.326795,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1a82a9fa",
+      "attributes": {
+        "batteryLevel": 75,
+        "lat": 52.472539,
+        "lng": 13.419945,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "340f8a6e",
+      "attributes": {
+        "batteryLevel": 38,
+        "lat": 52.483254,
+        "lng": 13.402959,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2111b0c6",
+      "attributes": {
+        "batteryLevel": 59,
+        "lat": 52.545342,
+        "lng": 13.349194,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "18d79aca",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.539689,
+        "lng": 13.35012,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fac39a8b",
+      "attributes": {
+        "batteryLevel": 95,
+        "lat": 52.540022,
+        "lng": 13.454092,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "570ed7e3",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.53423,
+        "lng": 13.350838,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "aeafc092",
+      "attributes": {
+        "batteryLevel": 80,
+        "lat": 52.541152,
+        "lng": 13.386601,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c7f70161",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.50132,
+        "lng": 13.310827,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "9e72b6ef",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.505825,
+        "lng": 13.32633,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e773aa3e",
+      "attributes": {
+        "batteryLevel": 94,
+        "lat": 52.524131,
+        "lng": 13.33253,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b3714a8f",
+      "attributes": {
+        "batteryLevel": 75,
+        "lat": 52.52888,
+        "lng": 13.335993,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f6cae8c0",
+      "attributes": {
+        "batteryLevel": 64,
+        "lat": 52.521275,
+        "lng": 13.354096,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4e8d7fdf",
+      "attributes": {
+        "batteryLevel": 88,
+        "lat": 52.498923,
+        "lng": 13.407233,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4fb5b245",
+      "attributes": {
+        "batteryLevel": 52,
+        "lat": 52.535626,
+        "lng": 13.39813,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5a8088b1",
+      "attributes": {
+        "batteryLevel": 81,
+        "lat": 52.549115,
+        "lng": 13.359732,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "511c3984",
+      "attributes": {
+        "batteryLevel": 59,
+        "lat": 52.542942,
+        "lng": 13.362512,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0b59d5ee",
+      "attributes": {
+        "batteryLevel": 91,
+        "lat": 52.498131,
+        "lng": 13.443343,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "586a85aa",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.519618,
+        "lng": 13.413708,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a9e524ca",
+      "attributes": {
+        "batteryLevel": 84,
+        "lat": 52.518254,
+        "lng": 13.411825,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b73b2b01",
+      "attributes": {
+        "batteryLevel": 60,
+        "lat": 52.512133,
+        "lng": 13.388219,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "cc519b04",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.546642,
+        "lng": 13.340298,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "95e43b40",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.557879,
+        "lng": 13.432712,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2493ddc6",
+      "attributes": {
+        "batteryLevel": 69,
+        "lat": 52.56716,
+        "lng": 13.405286,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b4f4f95f",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.519634,
+        "lng": 13.405779,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fffbbeb2",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.52235,
+        "lng": 13.367686,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8021886d",
+      "attributes": {
+        "batteryLevel": 88,
+        "lat": 52.502947,
+        "lng": 13.336754,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a31e4bcb",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.502337,
+        "lng": 13.369475,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "aa686626",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.505025,
+        "lng": 13.338249,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0d0c6942",
+      "attributes": {
+        "batteryLevel": 64,
+        "lat": 52.534487,
+        "lng": 13.446412,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "7671af0b",
+      "attributes": {
+        "batteryLevel": 27,
+        "lat": 52.528803,
+        "lng": 13.378222,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1657c172",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.530728,
+        "lng": 13.411718,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6ce9bd50",
+      "attributes": {
+        "batteryLevel": 86,
+        "lat": 52.569348,
+        "lng": 13.403769,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e55d3f2e",
+      "attributes": {
+        "batteryLevel": 80,
+        "lat": 52.502865,
+        "lng": 13.307973,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2934bfb4",
+      "attributes": {
+        "batteryLevel": 30,
+        "lat": 52.505559,
+        "lng": 13.333695,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e199fdc8",
+      "attributes": {
+        "batteryLevel": 49,
+        "lat": 52.472961,
+        "lng": 13.385642,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b6eddfdb",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.519895,
+        "lng": 13.389453,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d849140f",
+      "attributes": {
+        "batteryLevel": 47,
+        "lat": 52.505592,
+        "lng": 13.481002,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4ce9e718",
+      "attributes": {
+        "batteryLevel": 99,
+        "lat": 52.503475,
+        "lng": 13.338192,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2bcbd52b",
+      "attributes": {
+        "batteryLevel": 67,
+        "lat": 52.527424,
+        "lng": 13.392848,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "02cf7928",
+      "attributes": {
+        "batteryLevel": 84,
+        "lat": 52.568279,
+        "lng": 13.404358,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ad9699d3",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.47858,
+        "lng": 13.364346,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6491cc99",
+      "attributes": {
+        "batteryLevel": 63,
+        "lat": 52.509065,
+        "lng": 13.33278,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "26c9f3ef",
+      "attributes": {
+        "batteryLevel": 98,
+        "lat": 52.516101,
+        "lng": 13.376141,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b79a6270",
+      "attributes": {
+        "batteryLevel": 97,
+        "lat": 52.50568,
+        "lng": 13.469372,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "76c52968",
+      "attributes": {
+        "batteryLevel": 53,
+        "lat": 52.525171,
+        "lng": 13.365181,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ce3a039d",
+      "attributes": {
+        "batteryLevel": 55,
+        "lat": 52.471097,
+        "lng": 13.335208,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b424dfa4",
+      "attributes": {
+        "batteryLevel": 60,
+        "lat": 52.486087,
+        "lng": 13.320264,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "acc8149b",
+      "attributes": {
+        "batteryLevel": 70,
+        "lat": 52.486619,
+        "lng": 13.423942,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "585a5804",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.540031,
+        "lng": 13.437922,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "15d93b99",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.549253,
+        "lng": 13.417015,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "21707f6b",
+      "attributes": {
+        "batteryLevel": 94,
+        "lat": 52.506121,
+        "lng": 13.332125,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "add546b9",
+      "attributes": {
+        "batteryLevel": 22,
+        "lat": 52.486516,
+        "lng": 13.394304,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c793422f",
+      "attributes": {
+        "batteryLevel": 38,
+        "lat": 52.513337,
+        "lng": 13.473278,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "014ee80a",
+      "attributes": {
+        "batteryLevel": 39,
+        "lat": 52.533985,
+        "lng": 13.494737,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "aa0b53fe",
+      "attributes": {
+        "batteryLevel": 68,
+        "lat": 52.503594,
+        "lng": 13.337028,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "64345ae6",
+      "attributes": {
+        "batteryLevel": 66,
+        "lat": 52.478993,
+        "lng": 13.447196,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "13abeecb",
+      "attributes": {
+        "batteryLevel": 89,
+        "lat": 52.464979,
+        "lng": 13.433025,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "3fa3e02d",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.530206,
+        "lng": 13.45458,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c8098261",
+      "attributes": {
+        "batteryLevel": 77,
+        "lat": 52.525857,
+        "lng": 13.416098,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "584cbc97",
+      "attributes": {
+        "batteryLevel": 67,
+        "lat": 52.479988,
+        "lng": 13.385152,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "26fbe981",
+      "attributes": {
+        "batteryLevel": 56,
+        "lat": 52.531575,
+        "lng": 13.402875,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a1e22fbd",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.503615,
+        "lng": 13.507811,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fd56026b",
+      "attributes": {
+        "batteryLevel": 32,
+        "lat": 52.511468,
+        "lng": 13.434342,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c40cbaeb",
+      "attributes": {
+        "batteryLevel": 85,
+        "lat": 52.466007,
+        "lng": 13.347881,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "9e7e8e11",
+      "attributes": {
+        "batteryLevel": 43,
+        "lat": 52.492126,
+        "lng": 13.348418,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c05276f4",
+      "attributes": {
+        "batteryLevel": 85,
+        "lat": 52.50994,
+        "lng": 13.466548,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c631a591",
+      "attributes": {
+        "batteryLevel": 70,
+        "lat": 52.528845,
+        "lng": 13.319685,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f4a61ff4",
+      "attributes": {
+        "batteryLevel": 64,
+        "lat": 52.492894,
+        "lng": 13.444504,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "655ea5ce",
+      "attributes": {
+        "batteryLevel": 52,
+        "lat": 52.566659,
+        "lng": 13.432403,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a3ef0a6d",
+      "attributes": {
+        "batteryLevel": 51,
+        "lat": 52.523633,
+        "lng": 13.38858,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "20fb29d6",
+      "attributes": {
+        "batteryLevel": 75,
+        "lat": 52.494675,
+        "lng": 13.409238,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "c45b5044",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.535798,
+        "lng": 13.42992,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "588ba14b",
+      "attributes": {
+        "batteryLevel": 89,
+        "lat": 52.554237,
+        "lng": 13.451683,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "3a4b176f",
+      "attributes": {
+        "batteryLevel": 97,
+        "lat": 52.572419,
+        "lng": 13.359869,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "6a9a7156",
+      "attributes": {
+        "batteryLevel": 26,
+        "lat": 52.535073,
+        "lng": 13.431381,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "974b6d28",
+      "attributes": {
+        "batteryLevel": 51,
+        "lat": 52.480804,
+        "lng": 13.340189,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "932c972f",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.502767,
+        "lng": 13.326266,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e3bb766b",
+      "attributes": {
+        "batteryLevel": 26,
+        "lat": 52.52304,
+        "lng": 13.385147,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "cc80b162",
+      "attributes": {
+        "batteryLevel": 76,
+        "lat": 52.507636,
+        "lng": 13.311297,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "223bfca9",
+      "attributes": {
+        "batteryLevel": 59,
+        "lat": 52.515598,
+        "lng": 13.489037,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "be4b438c",
+      "attributes": {
+        "batteryLevel": 67,
+        "lat": 52.502642,
+        "lng": 13.315158,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d023a27c",
+      "attributes": {
+        "batteryLevel": 48,
+        "lat": 52.501838,
+        "lng": 13.305699,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "84ce0852",
+      "attributes": {
+        "batteryLevel": 54,
+        "lat": 52.533193,
+        "lng": 13.387487,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1215ce50",
+      "attributes": {
+        "batteryLevel": 38,
+        "lat": 52.533897,
+        "lng": 13.398569,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "eba32f29",
+      "attributes": {
+        "batteryLevel": 93,
+        "lat": 52.536319,
+        "lng": 13.420805,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b45ad6cb",
+      "attributes": {
+        "batteryLevel": 88,
+        "lat": 52.499651,
+        "lng": 13.363136,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "93af1409",
+      "attributes": {
+        "batteryLevel": 44,
+        "lat": 52.456954,
+        "lng": 13.388985,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "dbe94548",
+      "attributes": {
+        "batteryLevel": 60,
+        "lat": 52.496516,
+        "lng": 13.41191,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "cb995a20",
+      "attributes": {
+        "batteryLevel": 44,
+        "lat": 52.512812,
+        "lng": 13.494185,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2e94adc8",
+      "attributes": {
+        "batteryLevel": 80,
+        "lat": 52.484108,
+        "lng": 13.351918,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "7160d264",
+      "attributes": {
+        "batteryLevel": 87,
+        "lat": 52.51189,
+        "lng": 13.30636,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "58bf5f66",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.511761,
+        "lng": 13.308321,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5a1ff411",
+      "attributes": {
+        "batteryLevel": 59,
+        "lat": 52.550959,
+        "lng": 13.410411,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "af12a691",
+      "attributes": {
+        "batteryLevel": 42,
+        "lat": 52.550379,
+        "lng": 13.351874,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "65ec3591",
+      "attributes": {
+        "batteryLevel": 57,
+        "lat": 52.513276,
+        "lng": 13.447255,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "8b9e51d1",
+      "attributes": {
+        "batteryLevel": 31,
+        "lat": 52.527044,
+        "lng": 13.407105,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "9dea714f",
+      "attributes": {
+        "batteryLevel": 52,
+        "lat": 52.53159,
+        "lng": 13.411736,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "bf25442f",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.569512,
+        "lng": 13.437872,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ea4fea27",
+      "attributes": {
+        "batteryLevel": 82,
+        "lat": 52.542328,
+        "lng": 13.413409,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2270ee88",
+      "attributes": {
+        "batteryLevel": 96,
+        "lat": 52.485186,
+        "lng": 13.360623,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "954bca2e",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.500891,
+        "lng": 13.319392,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f17bbb5d",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.501735,
+        "lng": 13.335545,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "2179c145",
+      "attributes": {
+        "batteryLevel": 93,
+        "lat": 52.546019,
+        "lng": 13.376587,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d80c3000",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.519271,
+        "lng": 13.470497,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "88b66336",
+      "attributes": {
+        "batteryLevel": 36,
+        "lat": 52.560939,
+        "lng": 13.415597,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f3e8f975",
+      "attributes": {
+        "batteryLevel": 90,
+        "lat": 52.543716,
+        "lng": 13.438251,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fa15213e",
+      "attributes": {
+        "batteryLevel": 98,
+        "lat": 52.549242,
+        "lng": 13.388222,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "01dc4cdd",
+      "attributes": {
+        "batteryLevel": 53,
+        "lat": 52.510887,
+        "lng": 13.436703,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a5043bca",
+      "attributes": {
+        "batteryLevel": 77,
+        "lat": 52.538092,
+        "lng": 13.447764,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e970d0e8",
+      "attributes": {
+        "batteryLevel": 39,
+        "lat": 52.562616,
+        "lng": 13.34269,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "470052f4",
+      "attributes": {
+        "batteryLevel": 100,
+        "lat": 52.537557,
+        "lng": 13.396732,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5234c0bd",
+      "attributes": {
+        "batteryLevel": 43,
+        "lat": 52.563503,
+        "lng": 13.390701,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f330708c",
+      "attributes": {
+        "batteryLevel": 89,
+        "lat": 52.559848,
+        "lng": 13.413531,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e5d5490b",
+      "attributes": {
+        "batteryLevel": 70,
+        "lat": 52.540145,
+        "lng": 13.346375,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1ce6918b",
+      "attributes": {
+        "batteryLevel": 34,
+        "lat": 52.534123,
+        "lng": 13.415569,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fb1ee7be",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.531613,
+        "lng": 13.422934,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "1ed558ad",
+      "attributes": {
+        "batteryLevel": 37,
+        "lat": 52.503176,
+        "lng": 13.412082,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0e255d9b",
+      "attributes": {
+        "batteryLevel": 91,
+        "lat": 52.546796,
+        "lng": 13.403708,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "e91e5116",
+      "attributes": {
+        "batteryLevel": 98,
+        "lat": 52.54656,
+        "lng": 13.352714,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4a7c769c",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.552452,
+        "lng": 13.381083,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b06b96dc",
+      "attributes": {
+        "batteryLevel": 91,
+        "lat": 52.496805,
+        "lng": 13.42623,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "d83f3f1e",
+      "attributes": {
+        "batteryLevel": 70,
+        "lat": 52.524129,
+        "lng": 13.31176,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "50c04996",
+      "attributes": {
+        "batteryLevel": 86,
+        "lat": 52.534074,
+        "lng": 13.328593,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "b0b5177d",
+      "attributes": {
+        "batteryLevel": 58,
+        "lat": 52.499482,
+        "lng": 13.334856,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "69802775",
+      "attributes": {
+        "batteryLevel": 81,
+        "lat": 52.48518,
+        "lng": 13.317967,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "64d439d7",
+      "attributes": {
+        "batteryLevel": 46,
+        "lat": 52.459938,
+        "lng": 13.362351,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "f7cb3673",
+      "attributes": {
+        "batteryLevel": 65,
+        "lat": 52.501001,
+        "lng": 13.381598,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "4a2f2c1c",
+      "attributes": {
+        "batteryLevel": 78,
+        "lat": 52.484569,
+        "lng": 13.388228,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a9f801dc",
+      "attributes": {
+        "batteryLevel": 91,
+        "lat": 52.521721,
+        "lng": 13.416493,
+        "maxSpeed": 20,
+        "vehicleType": "emoped",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0ac90f4d",
+      "attributes": {
+        "batteryLevel": 39,
+        "lat": 52.520997,
+        "lng": 13.415514,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "02577c2f",
+      "attributes": {
+        "batteryLevel": 51,
+        "lat": 52.541122,
+        "lng": 13.387898,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "04919d9d",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.536468,
+        "lng": 13.433085,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "ad7f955c",
+      "attributes": {
+        "batteryLevel": 45,
+        "lat": 52.519796,
+        "lng": 13.388604,
+        "maxSpeed": 25,
+        "vehicleType": "ebicycle",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0667f911",
+      "attributes": {
+        "batteryLevel": 25,
+        "lat": 52.506417,
+        "lng": 13.388651,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "5696db1e",
+      "attributes": {
+        "batteryLevel": 92,
+        "lat": 52.512132,
+        "lng": 13.310135,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "fb29b71b",
+      "attributes": {
+        "batteryLevel": 89,
+        "lat": 52.513175,
+        "lng": 13.320307,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "0b4fc528",
+      "attributes": {
+        "batteryLevel": 45,
+        "lat": 52.496174,
+        "lng": 13.322171,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "083ed1b7",
+      "attributes": {
+        "batteryLevel": 73,
+        "lat": 52.501231,
+        "lng": 13.432566,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": true
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "a6eec990",
+      "attributes": {
+        "batteryLevel": 51,
+        "lat": 52.562272,
+        "lng": 13.335213,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    },
+    {
+      "type": "vehicle",
+      "id": "efa4de0b",
+      "attributes": {
+        "batteryLevel": 83,
+        "lat": 52.556577,
+        "lng": 13.393951,
+        "maxSpeed": 20,
+        "vehicleType": "escooter",
+        "hasHelmetBox": false
+      }
+    }
+  ]
+}

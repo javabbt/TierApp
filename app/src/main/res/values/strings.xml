@@ -1,0 +1,12 @@
+<resources>
+    <string name="main_snackbar_message_offline">The tablet is offline : Enable wifi or mobile data in settings</string>
+    <string name="main_snackbar_button_settings">Settings</string>
+    <string name="loading_vehicles_went_wrong">Oops!! Something went wrong</string>
+    <string name="retry">Retry</string>
+    <string name="loading_vehicles">Loading Vehicles</string>
+    <string name="battery">Battery</string>
+    <string name="type">Type</string>
+    <string name="see_on_maps">See on maps</string>
+    <string name="nearest_point_to_me">Nearest point to me</string>
+    <string name="nearest_point">Nearest vehicle</string>
+</resources>
