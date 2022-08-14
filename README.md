@@ -11,7 +11,7 @@ The branch name must follow this pattern :
 
 ## Application architecture
 
-<img src="./documentation/img/android-mvvm.png" alt="Complete architecture scheme" width="600" /> 
+<img src=".documentation/img/android-mvvm.png" alt="Complete architecture scheme" width="600" /> 
 
 ### Modules
 
@@ -27,9 +27,9 @@ For now, there is one testing module :
 
 `:app` contains 4 flavors registered in dimension `environment`:
 
- - `development` : target the STAR API on development environment
- - `staging` : target the STAR API on staging environment
- - `production` : target the STAR API on production environment
+ - `development` : target the Tier API on development environment
+ - `staging` : target the Tier API on staging environment
+ - `production` : target the Tier API on production environment
 
 For CLI build, it doesn't matter. In fact, `gradlew assembleProductionRelease` will use the following module configuration : 
 
@@ -51,13 +51,13 @@ The directory [.tools](./.tools) contains Kotlin KTS file :
 
  - [`junit-report-converter.gradle.kts`](./.tools/junit-report-converter.gradle.kts) : it creates a Gradle task to convert lint report to JUnit Report
 
-## CI/CD 
+### CI/CD 
 
 CI/CD system is GitLab CI. All templates are located at [`.gitlab/ci/.gitlab-ci-template.yml`](./.gitlab/ci/.gitlab-ci-template.yml)
 
 Application version code is provided by the pipeline individual ID (restricted to the project).
 
-#Tools
+###Tools
 
 - Testing : Used MockK and Junit for Unit testing (Not enough time for instrumented and Ui tests)
 - DI : Used Dagger Hilt for dependency injection
