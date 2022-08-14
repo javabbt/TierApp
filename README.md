@@ -57,7 +57,7 @@ CI/CD system is GitLab CI. All templates are located at [`.gitlab/ci/.gitlab-ci-
 
 Application version code is provided by the pipeline individual ID (restricted to the project).
 
-###Tools
+### Tools
 
 - Testing : Used MockK and Junit for Unit testing (Not enough time for instrumented and Ui tests)
 - DI : Used Dagger Hilt for dependency injection
